@@ -5,6 +5,7 @@ from ttkbootstrap.constants import *
 from algorithms.backtracking import solve_n_queens
 from algorithms.genetic import solve_n_queens_genetic
 
+
 class NQueensApp:
     def __init__(self):
         self.root = ttk.Window(themename="darkly")
